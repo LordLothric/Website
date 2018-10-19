@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+span
+{
+    color: #00ff1d;
+    font-family: verdana, sans-serif;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: black;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+h2,h3,h4,h5,h6,p
+{
+    color: black;
+}
+
+
+/* Style the top navigation bar */
+ul.cl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.cl li {float: left;}
+
+ul.cl li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.cl li a:hover:not(.active) {background-color: #555;}
+
+ul.cl li a.active {background-color: #4CAF50;}
+
+ul.cl li.right {float: right;}
+/* Create two unequal columns that floats next to each other */
+
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.card2 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right:20px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+.me
+{
+    height: 140px;
+    
+}
+
+.social
+{
+    width: 100px
+}
+
+.odin
+{
+    height: 150px;
+}
+
