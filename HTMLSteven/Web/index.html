@@ -6,12 +6,16 @@
     <link rel="stylesheet" href="../css/Index.css">
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link rel="shortcut icon" type="image/png" href="../img/lirikN.jpg"/>
+    <script>
+        var bleep = new Audio();
+        bleep.src = '../audio/pete.mp3';
+</script>
 </head>
 
 <body>
 
     <div class="header">
-        <h1>Welcome, My name is <span id="keepo">Michael</span></h1>
+        <h1>Welcome, My name is <span id="keepo" onclick="bleep.play()">Michael</span></h1>
     </div>
 
     <nav>

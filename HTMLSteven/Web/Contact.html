@@ -11,6 +11,8 @@
         bleep.src = '../audio/Spooky.mp3';
         var bleep2 = new Audio();
         bleep2.src = '../audio/doot.mp3';
+        var bleep3 = new Audio();
+        bleep3.src = '../audio/NANI.mp3';
 </script>
 </head>
 
@@ -56,7 +58,7 @@
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something useful so I know why you want to contact me Blyat OR tell me a joke Cyka." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit" class="btn">
+    <input type="submit" value="Submit" class="btn" onclick="bleep3.play()">
     </div>
 </body>
 </html>
