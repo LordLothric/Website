@@ -117,15 +117,30 @@ ul.cl li.right {float: right;}
     color: white;
 }
 
+.footer a:hover
+{
+    color: red;
+    transition-property: color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+
 .me
 {
     height: 140px;
+    transition: transform .2s;
     
+}
+
+.me:hover
+{
+    transform: scale(1.2);
 }
 
 .social
 {
-    width: 100px
+    width: 100px;
 }
 
 
@@ -149,4 +164,6 @@ ul.cl li.right {float: right;}
 {
     width: 150px;
 }
+
+
 
