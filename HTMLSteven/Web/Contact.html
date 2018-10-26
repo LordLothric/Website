@@ -6,18 +6,19 @@
     <link rel="stylesheet" href="../css/Other.css">
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link rel="shortcut icon" type="image/png" href="../img/lirikN.jpg"/>
-    <script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>    
         var bleep = new Audio();
         bleep.src = '../audio/Spooky.mp3';
-        var bleep2 = new Audio();
-        bleep2.src = '../audio/Doot.mp3';
         var bleep3 = new Audio();
         bleep3.src = '../audio/NANI.mp3';
 </script>
+    
+
 </head>
 
 <body>
-  <img src="../img/giphy.gif" alt="doot" onclick="bleep2.play()" class="doot">
+  <img src="../img/giphy.gif" alt="doot" class="doot">
   
    <img src="../img/Spooky.gif" alt="Spooky" onclick="bleep.play()" class="Spooky">
     <div class="header">
@@ -27,9 +28,9 @@
 
     <nav>
         <ul class="cl">
-            <li><a href="../Web/index.html">Home</a></li>
-            <li><a href="../Web/Hobbies.html">Hobbies</a></li>
-            <li><a href="../Web/Gaming.html">Gaming</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Hobbies.html">Hobbies</a></li>
+            <li><a href="Gaming.html">Gaming</a></li>
             <li><a class="active" href="#">Contact</a></li>
         </ul>
     </nav>
@@ -60,5 +61,6 @@
 
     <input type="submit" value="Submit" class="btn" onclick="bleep3.play()">
     </div>
+    <script src="../js/main.js"></script>
 </body>
 </html>
