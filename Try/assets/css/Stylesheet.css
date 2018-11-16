@@ -1,0 +1,105 @@
+body
+{
+    background-color: black;
+    font-family: arial,sans-serif;
+    color: white;
+}
+
+h1
+{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -5px;
+   
+}
+
+ul.cl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.cl li {float: left;}
+
+ul.cl li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.cl li a:hover:not(.active) {background-color: #555;}
+
+ul.cl li a.active {background-color: #4CAF50;}
+
+ul.cl li.right {float: right;}
+
+#gif
+{
+    border: thick solid grey;
+    overflow: hidden;
+    float:left;
+    position: relative;
+    margin:10px;
+}
+
+div.e
+{
+    position: relative;
+    padding:15px;
+    overflow: hidden;
+
+
+}
+
+div.c
+{
+    position: relative;
+    padding: 15px;
+    overflow: hidden;
+}
+
+div.li
+{
+    position: relative;
+}
+
+div.i
+{
+    margin-top:8%;
+    position: absolute;
+    overflow: hidden;
+}
+
+div.i img
+{
+     border: thick solid grey;
+    height: 290px;
+    float:right;
+    margin:10px;
+}
+
+div.i #dr
+{
+    border: thick solid grey;
+    height: 290px;
+    width: 175px;
+    margin:10px;
+}
+
+div.l
+{
+    margin-top:8%;
+    position: relative;
+    float: right;
+}
+
+div.footer
+{
+    color: white;
+}
+
