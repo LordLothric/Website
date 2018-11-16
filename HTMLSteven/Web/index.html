@@ -2,20 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/Index.css">
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link rel="shortcut icon" type="image/png" href="../img/lirikN.jpg"/>
-    <script>
-        var bleep = new Audio();
-        bleep.src = '../audio/pete.mp3';
-</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
 
     <div class="header">
-        <h1>Welcome, My name is <span id="keepo" onclick="bleep.play()">Michael</span></h1>
+        <h1>Welcome, My name is <span id="keepo">Michael</span></h1>
     </div>
 
     <nav>
@@ -87,9 +86,8 @@
     </div>
 
     <div class="footer">
-        <a href="#">Back Up You Go</a>
+        <button id="btn">Back up you go</button>
     </div>
-
-
+    <script src="../js/main.js"></script>
 </body>
 </html>

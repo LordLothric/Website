@@ -7,12 +7,6 @@
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link rel="shortcut icon" type="image/png" href="../img/lirikN.jpg"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>    
-        var bleep = new Audio();
-        bleep.src = '../audio/Spooky.mp3';
-        var bleep3 = new Audio();
-        bleep3.src = '../audio/NANI.mp3';
-</script>
     
 
 </head>
@@ -20,7 +14,7 @@
 <body>
   <img src="../img/giphy.gif" alt="doot" class="doot">
   
-   <img src="../img/Spooky.gif" alt="Spooky" onclick="bleep.play()" class="Spooky">
+   <img src="../img/Spooky.gif" alt="Spooky" class="Spooky">
     <div class="header">
         <h1>Ah, you want to contact <span>me</span>?</h1>
         
@@ -59,7 +53,7 @@
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something useful so I know why you want to contact me Blyat OR tell me a joke Cyka." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit" class="btn" onclick="bleep3.play()">
+    <input type="submit" value="Submit" class="btn">
     </div>
     <script src="../js/main.js"></script>
 </body>
